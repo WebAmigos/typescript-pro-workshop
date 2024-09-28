@@ -1,0 +1,67 @@
+{
+  "name": "typescript-workshops",
+  "version": "1.0.0",
+  "description": "Workshops examples",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "tsc": "tsc --project tsconfig.json",
+    "tsc:watch": "tsc --project tsconfig.json --watch",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "simple-script": "tsx scripts/simple-script.ts",
+    "server": "ts-node --project tsconfig.node.json src/web-server/index.ts",
+    "clean:js": "rimraf --glob **/*.js !node_modules/**/*.js",
+    "e-01-01": "vitest src/examples/01-start/01-calculator.problem.ts",
+    "e-01-01-s": "vitest src/examples/01-start/solutions/01-calculator.solution.ts",
+    "e-01-02": "vitest src/examples/01-start/02-task-list.problem.ts",
+    "e-01-02-s": "vitest src/examples/01-start/solutions/02-task-list.solution.ts",
+    "e-01-03": "vitest src/examples/01-start/03-enum-and-switch.problem.ts",
+    "e-01-03-s": "vitest src/examples/01-start/solutions/03-enum-and-switch.solution.ts",
+    "e-01-04": "vitest src/examples/01-start/04-generic-function.problem.ts",
+    "e-01-04-s": "vitest src/examples/01-start/solutions/04-generic-function.solution.ts",
+    "e-01-05": "vitest src/examples/01-start/05-intersection.problem.ts",
+    "e-01-05-s": "vitest src/examples/01-start/solutions/05-intersection.solution.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrykomiotek/typescript-workshops.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Patryk Omiotek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrykomiotek/typescript-workshops/issues"
+  },
+  "homepage": "https://github.com/patrykomiotek/typescript-workshops#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.5.30",
+    "@types/node": "^22.5.2",
+    "@types/uuid": "^10.0.0",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^9.0.1",
+    "cross-fetch": "^4.0.0",
+    "jsdom": "^25.0.0",
+    "postcss": "^8.4.42",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.10",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2",
+    "vite-plugin-checker": "^0.7.2",
+    "vite-tsconfig-paths": "^5.0.1",
+    "vitest": "^2.0.5"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "jquery": "^3.7.1",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "uuid": "^10.0.0",
+    "zod": "^3.23.8"
+  }
+}
