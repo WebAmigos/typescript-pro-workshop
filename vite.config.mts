@@ -19,6 +19,10 @@ export default defineConfig({
     passWithNoTests: true,
     environment: 'jsdom',
     globals: true,
+    typecheck: {
+      ignoreSourceErrors: true,
+      // include: ['src/**/*.{problem,solution}.ts'],
+    },
   },
   plugins: [tsconfigPaths()],
   // plugins: [checker({ typescript: true })]

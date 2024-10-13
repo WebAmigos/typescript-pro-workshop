@@ -1,5 +1,6 @@
 # generated js files
 src/**/*.js
+tsconfig.vitest-temp.json
 
 # Logs
 logs

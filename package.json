@@ -23,7 +23,17 @@
     "e-01-04": "vitest src/examples/01-start/04-generic-function.problem.ts",
     "e-01-04-s": "vitest src/examples/01-start/solutions/04-generic-function.solution.ts",
     "e-01-05": "vitest src/examples/01-start/05-intersection.problem.ts",
-    "e-01-05-s": "vitest src/examples/01-start/solutions/05-intersection.solution.ts"
+    "e-01-05-s": "vitest src/examples/01-start/solutions/05-intersection.solution.ts",
+    "e-02-01": "vitest src/examples/02-practice/01-typeof-01.problem.ts",
+    "e-02-01-s": "vitest src/examples/02-practice/solutions/01-typeof-01.solution.ts",
+    "e-02-02": "vitest src/examples/02-practice/02-typeof-02.problem.ts",
+    "e-02-02-s": "vitest src/examples/02-practice/solutions/02-typeof-02.solution.ts",
+    "e-02-03": "vitest src/examples/02-practice/03-keyof-01.problem.ts",
+    "e-02-03-s": "vitest src/examples/02-practice/solutions/03-keyof-01.solution.ts",
+    "e-02-04": "vitest src/examples/02-practice/04-keyof-02.problem.ts",
+    "e-02-04-s": "vitest src/examples/02-practice/solutions/04-keyof-02.solution.ts",
+    "e-02-05": "vitest --typecheck src/examples/02-practice/05-partial.problem.ts",
+    "e-02-05-s": "vitest --typecheck src/examples/02-practice/solutions/05-partial.solution.spec-d.ts"
   },
   "repository": {
     "type": "git",
